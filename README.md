@@ -5,3 +5,5 @@ O sistema foi desenvolvido em Java, utilizando a biblioteca JavaFX junto com o S
 
 ### Funcionalidade
 É possível inserir e excluir movimentações financeiras com datas, descrições, tipos, categorias e valores. Na tela principal é possível visualizar o saldo positivo/negativo, um gráfico sobre as despesas e histórico de movimentações previstas e atuais.
+
+#### OBS: Necessário versão 19 ou superior do JDK para rodar o projeto
