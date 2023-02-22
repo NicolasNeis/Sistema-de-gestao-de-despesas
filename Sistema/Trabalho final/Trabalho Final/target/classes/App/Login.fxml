@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Login">
+   <children>
+      <Button fx:id="btnCadastro" layoutX="87.0" layoutY="271.0" mnemonicParsing="false" onAction="#selectBtnCadastro" prefHeight="27.0" prefWidth="257.0" style="-fx-background-color: #98A8F8; -fx-border-color: #000000;" text="CADASTRE-SE">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="186.0" layoutY="82.0" text="LOGIN">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userText" layoutX="87.0" layoutY="132.0" onAction="#selectUserText" prefHeight="27.0" prefWidth="257.0" promptText="Username" style="-fx-border-color: #000000;">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="passwordText" layoutX="88.0" layoutY="167.0" onAction="#selectPasswordText" prefHeight="25.0" prefWidth="257.0" promptText="Password" style="-fx-border-color: #000000;">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="14.0" />
+         </font>
+      </PasswordField>
+      <CheckBox fx:id="btnStill" layoutX="87.0" layoutY="206.0" mnemonicParsing="false" onAction="#SelectBtnStill" text="Manter-me conectado">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="14.0" />
+         </font>
+      </CheckBox>
+      <Button fx:id="btnLogin" layoutX="87.0" layoutY="235.0" mnemonicParsing="false" onAction="#SelectBtnLogin" prefHeight="27.0" prefWidth="257.0" style="-fx-background-color: #98A8F8; -fx-border-color: #000000;" text="LOGIN">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="Warning" layoutX="201.0" layoutY="336.0" onDragDetected="#labelWarning">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelErroUser" layoutX="82.0" layoutY="334.0">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
